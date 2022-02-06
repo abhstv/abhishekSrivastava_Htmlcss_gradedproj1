@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Please Fill the Form</title>
+    <link rel="stylesheet" href="styles_formpage.css">
+</head>
+
+<body>
+    <section>
+        <form action="Homepage.html">
+            <div>
+                <div style="width: 500px; height: 600px; text-align: left; padding: 25px;">
+                    <h1 style="text-align: left;">1. Your Contact Details</h1>
+                    <article>
+                        <input type="text" title="Full Name" name="fullName" placeholder="Full Name" required>
+                    </article>
+                    <article>
+                        <input type="text" title="Patient Id" name="patientId" placeholder="Patient Id if exists">
+                    </article>
+                    <article>
+                        <input type="text" title="Contact Number" name="contactNo" placeholder="Contact Number"
+                            required>
+                    </article>
+                    <article>
+                        <input type="email" title="Email" name="email" placeholder="Email" required>
+                    </article>
+                    <h1>2. Adrress</h1>
+                    <article>
+                        <input type="text" title="House Number" name="houseNo" placeholder="House Number" required>
+                    </article>
+                    <article>
+                        <input type="text" title="Street" name="street" placeholder="Street" required>
+                    </article>
+                    <article>
+                        <input type="text" title="Area" name="area" placeholder="Area" required>
+                    </article>
+                    <br>
+                    <article>
+                        <h2>District</h2>
+                        <select name="District" id="district" required>
+                            <option value="">Choose</option>
+                            <option value="Bangalore Urban">Bangalore Urban</option>
+                            <option value="Bangalore Rural">Bangalore Rural</option>
+                            <option value="Ramnagar">Ramnagar</option>
+                        </select>
+                    </article>
+                    <h1>3. Choose the Test Type</h1>
+                    <article>
+                        <input type="checkbox" id="c1" name="option1" value="CBC" checked required>
+                        <label for="c1">CBC</label>
+                        <br>
+                        <input type="checkbox" id="c2" name="option1" value="Complete Urine">
+                        <label for="c2">Complete Urine</label>
+                        <br>
+                        <input type="checkbox" id="c3" name="option1" value="Lipid Profile">
+                        <label for="c3">Lipid Profile</label>
+                        <br>
+                        <input type="checkbox" id="c4" name="option1" value="Thyroid Stimulating Hormone(TSH)">
+                        <label for="c4">Thyroid Stimulating Hormone(TSH)</label>
+                        <br>
+                        <input type="checkbox" id="c5" name="option1" value="Glucose Test">
+                        <label for="c5">Glucose Test</label>
+                    </article>
+                    <h1>4. Do you want hard copy of report also?</h1>
+                    <article>
+                        <input type="radio" id="c5" name="option2" value="True" required>
+                        <label for="c5">Yes</label>
+                        <br>
+                        <input type="radio" id="c6" name="option2" value="False" required>
+                        <label for="c6">No</label>
+                    </article>
+                    <h1>5.Select Date and Time</h1>
+                    <article>
+                        <input type="date" name="date" value="date" required>
+                    </article>
+                    <article>
+                        <input type="time" name="time" value="time" required>
+                    </article>
+                </div>
+                <div id="image"><img src="Images/Lab-Test/lab-test.jpg" alt="lab-test"></div>
+            </div>
+            <div id="button">
+                <button>Reset</button>
+                <button>Submit</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

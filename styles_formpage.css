@@ -1,0 +1,63 @@
+body>section {
+    position: relative;
+    text-align: center;
+}
+
+form>div {
+    height: 600px;
+    box-shadow: 0 0 2px 5px rgba(0, 0, 0, 0.15);
+    overflow: auto;
+    display: inline-flex;
+}
+
+button {
+    margin-right: 20px;
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid;
+    font-size: 16px;
+    margin-top: 15px
+}
+
+#button {
+    height: auto;
+    display: block;
+    box-shadow: none;
+    text-align: left;
+    margin-left: 40%;
+}
+
+article {
+    display: inline-block;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    color: grey;
+    width: auto;
+    text-align: left;
+    font-size: 18px;
+
+}
+
+select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    color: grey;
+    font-size: 18px;
+}
+
+label {
+    color: grey;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#image {
+    top: 0;
+    right: 0;
+    position: sticky;
+}
